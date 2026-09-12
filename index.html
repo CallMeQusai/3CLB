@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3CLB</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <meta name="description" content="3 Club — Private Club for Minecraft PvP Players.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home">
+      <img src="logo.png" alt="3 Club logo">
+      <span>3 CLUB</span>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#players">Players</a>
+      <a href="#events">Events</a>
+      <a href="#rules">Rules</a>
+    </nav>
+    <a class="nav-button" href="#discord">Join Discord <span>↗</span></a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span></span> PRIVATE MINECRAFT PVP CLUB</div>
+        <h1>NOT EVERYONE<br><em>GETS IN.</em></h1>
+        <p>3 Club is a private community for Minecraft PvP players who want to compete, improve and play with people who take PvP seriously.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#discord">JOIN THE CLUB <span>→</span></a>
+          <a class="button secondary" href="#about">EXPLORE <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-mark">3</div>
+      <div class="scroll">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Club highlights">
+      <div>⚔ COMPETE</div><div>★ IMPROVE</div><div>⚡ DUEL</div><div>◆ RESPECT</div><div>⚔ COMPETE</div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="about-layout">
+        <div>
+          <h2>A CLUB BUILT<br>FOR <span>PVP.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="big">A private space for players who live for the fight.</p>
+          <p>3 Club brings Minecraft PvP players together for private battles, practice sessions, events and a competitive community without the noise of a public server.</p>
+          <div class="stats">
+            <div><strong>3</strong><span>THE CLUB</span></div>
+            <div><strong>24/7</strong><span>COMMUNITY</span></div>
+            <div><strong>PVP</strong><span>FOCUSED</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="players" class="section players">
+      <div class="section-label">02 / PLAYERS</div>
+      <div class="section-heading">
+        <h2>TOP <span>PLAYERS</span></h2>
+        <p>The names you don't want to see on the other side of the arena.</p>
+      </div>
+      <div class="player-grid">
+        <article class="player featured"><div class="rank">01</div><div class="avatar">3</div><div><h3>Othmans</h3><p>ELITE • 1,842 WINS</p></div><b>98%</b></article>
+        <article class="player"><div class="rank">02</div><div class="avatar">P</div><div><h3>CallMeQusai</h3><p>MASTER • 1,420 WINS</p></div><b>94%</b></article>
+        <article class="player"><div class="rank">03</div><div class="avatar">X</div><div><h3>imz9</h3><p>MASTER • 1,208 WINS</p></div><b>91%</b></article>
+      </div>
+    </section>
+
+    <section id="events" class="section events">
+      <div class="section-label">03 / EVENTS</div>
+      <div class="event-card">
+        <div>
+          <span class="event-tag">UPCOMING</span>
+          <h2>3 CLUB<br>DUEL NIGHT</h2>
+          <p>Private 1v1 battles. Best of three. No excuses.</p>
+        </div>
+        <div class="event-meta"><strong>01</strong><span>PRIVATE EVENT</span><small>DATE — TBA</small></div>
+        <a class="circle-arrow" href="#discord">↗</a>
+      </div>
+    </section>
+
+    <section id="rules" class="section rules">
+      <div class="section-label">04 / RULES</div>
+      <div class="rules-layout">
+        <h2>PLAY HARD.<br><span>PLAY FAIR.</span></h2>
+        <div class="rule-list">
+          <div><b>01</b><span>Respect every member.</span></div>
+          <div><b>02</b><span>No cheating, exploits or unfair advantages.</span></div>
+          <div><b>03</b><span>Keep competition competitive.</span></div>
+          <div><b>04</b><span>Represent 3 Club with respect.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="discord" class="join">
+      <div class="join-glow"></div>
+      <div class="join-content">
+        <div class="eyebrow"><span></span> PRIVATE ACCESS</div>
+        <h2>WELCOME TO<br><em>3 CLUB.</em></h2>
+        <p>Think you've got what it takes?</p>
+        <a class="button primary large" href="#" onclick="joinDiscord(event)">JOIN DISCORD <span>↗</span></a>
+        <small>Discord invite link can be added in <b>script.js</b>.</small>
+      </div>
+      <div class="join-logo"><img src="logo.png" alt=""></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><img src="logo.png" alt=""><span>3 CLUB</span></div>
+    <p>PRIVATE CLUB FOR MINECRAFT PVP PLAYERS</p>
+    <span>© 2026 3 CLUB</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
